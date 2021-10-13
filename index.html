@@ -22,7 +22,7 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="imagens/bg.jpg" alt="">
             </div>
@@ -33,24 +33,177 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github-alt"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/evelyncleto/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/EvelynCleto"><i class="fab fa-github-alt"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511910089948"><i class="fab fa-whatsapp"></i></a>
                 </div>
-        </div>
-    </div>
+        </aside>
 
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>7 meses no desenvolvimento de aplicações WEB e Mobile.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>2 anos de experiência em JavaScript</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-php"></i>
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>3 meses de experiência com essa linguagem que me ajudou para o desenvolvimento web 
+                            por ser embutida dentro do HTML.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>2 anos de experiência, dando estilo ao código criado por linguagens de marcação como HTML </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Boostrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>1 ano de experiência sendo utilizado no front-end de aplicações web e PHP</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>2 anos de experiência, definindo o significado e a estrutura do meu conteúdo da web</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimentos2.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>projetos</h1>
+            </div>
+           <div class="projetos">
+               <div class="card">
+                   <div class="card-img-wrapper">
+                       <img src="imagens/projeto1.jpg" alt="imagem do projeto">
+                   </div>
+                   <div class="card-info">
+                       <h2>Uber</h2>
+                       <h3>Java</h3>
+                       <p>Uber: localização usuário, interagir com mapa, distância entre pontos, rotas</p>
+                       <a href="https://github.com/EvelynCleto/Uber">
+                        <button class="btn" >Saiba mais</button>
+                    </a>
+                     
+                   </div>
+                   </div>
+                   <div class="card">
+                    <div class="card-img-wrapper">
+                    <img src="imagens/projeto2.jpg" alt="imagem do projeto uber" >
+                   </div>
+                   <div class="card-info">
+                       <h2>Mata Mosquito</h2>
+                       <h3>JavaScript, HTML e CSS</h3>
+                       <p>Game: Selecionar um nível de dificuldade que está relacionado ao tempo para matar os mosquitos que irão aparecer randomicamente. </p>
+                      <a href="https://evelyncleto.github.io/mataMosquito.github.io/">
+                        <button class="btn">Saiba mais</button></a>
+                   </div>
+                   </div>
+                   <div class="card">
+                    <div class="card-img-wrapper">
+                    <img src="imagens/projeto3.jpg" alt="imagem do projeto intagram" >
+                   </div>
+                   <div class="card-info">
+                       <h2>Instagram</h2>
+                       <h3>Java</h3>
+                       <p>Instagram: Fotos da galeria ou câmera, filtros nas fotos, seguir, curtir e comentar</p>
+                       <a href="https://github.com/EvelynCleto/InstagramApp"><button class="btn">Saiba mais</button></a>
+                   </div>
+                   </div>
+           </div>
+        </section>
+
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"> </div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="94b30640-0b97-4bf5-b278-14511fadfe73">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/?#projetos">
+
+                        <div class="input-group">
+                            <input type="text" name="name" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="email" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                           <textarea class="field" name="message" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button id="botaoEnviar" type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+       <footer>
+           <div class="footer-content">
+               <p>
+                   Copyright &copy; 2021, Evelyn Cleto - Todos os direitos reservados
+               </p>
+               <div  class="social-list">
+                   <ul>
+                     <li><a href="https://www.linkedin.com/in/evelyncleto/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/EvelynCleto"><i class="fab fa-github-alt"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511910089948"><i class="fab fa-whatsapp"></i></a></li>
+                   </ul>
+               </div>
+           </div>
+       </footer>
+       <a href="#home" id="link-topo">
+           <i class="fas fa-arrow-up"></i>
+       </a>
+    </div>
 </body>
 
 <script src="script.js"></script>
